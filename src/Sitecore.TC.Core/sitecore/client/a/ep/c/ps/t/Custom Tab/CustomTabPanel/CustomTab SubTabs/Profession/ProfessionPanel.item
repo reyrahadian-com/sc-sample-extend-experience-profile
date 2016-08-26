@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {277170E8-B8B2-467B-BD63-B4716D8C9097}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Custom Tab/CustomTabPanel/CustomTab SubTabs/Profession/ProfessionPanel
+parent: {44AF9E9F-1AFB-489C-AAE6-8ACFEA8E0903}
+name: ProfessionPanel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62B4CD7-754C-4461-810F-2B6BD2C92A0D}
+templatekey: Tab
+
+----field----
+field: {DEAB3795-056F-4421-ADF0-758844461B72}
+name: Placeholder Name
+key: placeholder name
+content-length: 15
+
+ProfessionPanel
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3153
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
+    <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fExperienceProfile%2fContact%2fCustomTab%2fProfession%2fprofession.js" ph="Page.Body" uid="{A86AC9CD-8B64-428E-8FA6-155570D2F3E0}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=ProfessionDataProvider" ph="ProfessionTabBorder.Content" uid="{A9B07BFF-DBA5-4CE0-8BB8-2C252289D1AD}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ProfessionTabBorder" ph="Page.Body" uid="{8E84BFFB-053F-49AD-A8F0-427AE1EF691B}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=ProfessionTabMessageBar" ph="ProfessionTabBorder.Content" uid="{620726C7-AD7D-4910-8B32-CAE7A7CCFC89}" />
+    <r ds="{09532A92-6730-4517-8829-E668A92845E4}" id="{442BD093-FBAD-4E36-BC08-489E16C82D08}" par="Id=ProfessionDetailAccordion" ph="ProfessionTabBorder.Content" uid="{60CA8871-E7BD-4CB5-AB71-A3CCF45917F1}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ProfessionDetailBorder&amp;UsePadding=1&amp;ShowBorder=0" ph="ProfessionDetailAccordion.Body" uid="{228C3763-C71F-4534-A11E-BAE5611D7376}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ProfessionDetailRow" ph="ProfessionDetailBorder.Content" uid="{04905FE7-A0A1-4022-A7F9-57F46379B9E2}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftColumnLabels&amp;GridColumns=2" ph="ProfessionDetailRow.Content" uid="{7B43AE5D-B01D-4208-B49B-08B179010F0E}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ProfessionNameBorder&amp;UsePadding=0" ph="LeftColumnLabels.Content" uid="{0EBABCFA-68B5-4527-B3EE-2DF85F562AA6}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ProfessionNameLabel&amp;Text=Profession" ph="ProfessionNameBorder.Content" uid="{EDCAC710-86AA-4B71-BD16-A061679E8D9D}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=HospitalNameBorder&amp;UsePadding=0" ph="LeftColumnLabels.Content" uid="{AB00E43B-0B52-4937-A0AD-355734041A0E}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HospitalNameLabel&amp;Text=Hospital" ph="HospitalNameBorder.Content" uid="{3166A583-B562-4E4D-BF18-AE6088C99040}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightColumnValues&amp;GridColumns=2" ph="ProfessionDetailRow.Content" uid="{5D7DCBEC-D58A-4272-AE11-B25187CF9F92}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=HospitalNameValueBorder" ph="RightColumnValues.Content" uid="{E4928EDC-1A77-4087-9A4A-C949C9B9A29F}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=HospitalNameValue" ph="HospitalNameValueBorder.Content" uid="{F1128076-F77E-4F9C-A380-4243E0991BEF}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=ProfessionNameValueBorder" ph="RightColumnValues.Content" uid="{C7BFA9EC-177A-43BC-A43C-2EE310981427}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ProfessionNameValue" ph="ProfessionNameValueBorder.Content" uid="{561D7EC8-25B2-40FD-B778-1682FF5C0F55}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 1f5eeda2-b17c-4fef-afd9-fc0ca9047e64
+
+----field----
+field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160819T052026Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f5eeda2-b17c-4fef-afd9-fc0ca9047e64
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160825T085256Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
