@@ -6,6 +6,9 @@ using Sitecore.Cintel.Reporting.Processors;
 
 namespace Sitecore.TC.ExperienceProfile.CIntel.Reporting.Contact.DownloadedPdfFiles
 {
+	/// <summary>
+	/// Responsible to populate the result table with the data coming from xDB
+	/// </summary>
 	public class PopulateDownloadedPdfFilesWithXdbData : ReportProcessorBase
 	{
 		private readonly Guid _downloadPdfFilePageEventItemId = new Guid("{C7C9427A-0EC3-4DBB-BF80-6864489102AC}");
@@ -42,6 +45,11 @@ namespace Sitecore.TC.ExperienceProfile.CIntel.Reporting.Contact.DownloadedPdfFi
 				}
 		}
 
+		/// <summary>
+		/// Skip processing the current row if it's the page event that we want to process
+		/// </summary>
+		/// <param name="row"></param>
+		/// <returns></returns>
 		private bool RowShouldBeSkipped(DataRow row)
 		{
 			return row.Field<Guid?>("Pages_PageEvents_PageEventDefinitionId").GetValueOrDefault() !=

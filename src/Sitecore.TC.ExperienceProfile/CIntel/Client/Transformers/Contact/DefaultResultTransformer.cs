@@ -7,6 +7,9 @@ using Sitecore.Diagnostics;
 
 namespace Sitecore.TC.ExperienceProfile.CIntel.Client.Transformers.Contact
 {
+	/// <summary>
+	/// This transformer class doesn't really do anything other than returning the default result set
+	/// </summary>
 	public class DefaultResultTransformer : IIntelResultTransformer
 	{
 		private ResultSetExtender resultSetExtender;
