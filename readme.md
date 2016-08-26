@@ -5,7 +5,13 @@ Tested on Sitecore 8.1 update 1
 TDS is used to store the sitecore items
 
 ## Getting the custom fields from contact facet
-## Getting the custom fields and display it in a list control
-## Getting the interactions data and display it in a list control
+[[docs/images/end-result.PNG]]
 
-blog post soon to follow
+## Getting the custom fields and display it in a list control
+[[docs/images/end-result-newsletter-tab.PNG]]
+
+## Getting the interactions data and display it in a list control
+[[docs/images/end-result-downloadedpdffiles-tab.PNG]]
+
+##blog post 
+http://reyrahadian.com/2016/08/26/sitecore-8-extending-experience-profile-part-1-overview/
