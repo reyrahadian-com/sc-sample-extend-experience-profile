@@ -171,7 +171,6 @@
     <Compile Include="CIntel\Reporting\Contact\DownloadedPdfFiles\ConstructDownloadedPdfFilesDataTable.cs" />
     <Compile Include="CIntel\Reporting\Contact\DownloadedPdfFiles\PopulateDownloadedPdfFilesWithXdbData.cs" />
     <Compile Include="CIntel\Reporting\Contact\DownloadedPdfFiles\Schema.cs" />
-    <Compile Include="CIntel\Reporting\MongoDbReportDataSource.cs" />
     <Compile Include="CIntel\Reporting\ReportingServerDataSource\DownloadedPdfFiles\GetDownloadedFiles.cs" />
     <Compile Include="ContactFacets\ICustomFieldsFacet.cs" />
     <Compile Include="ContactFacets\CustomFieldsFacet.cs" />
